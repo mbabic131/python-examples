@@ -1,10 +1,10 @@
-# sets - containers only unique elements
+# sets - containers only unique elements (An unordered collection of unique values. Items must be hashable.)
 basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
 print(basket)
 
 print("orange" in basket)
 
-# dictionaries
+# dictionaries (An unordered collection of unique key-value pairs; keys must be hashable.)
 event_info = {'city': 'Las Vegas', 'type': 'PPV', 'promtor': 'Showtime Boxing', 'id': 55}
 print(event_info)
 

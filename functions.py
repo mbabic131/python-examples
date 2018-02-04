@@ -13,6 +13,7 @@ def speakConor(line, opponent = 'Floyd Mayweather'):
     print(line + ' => to ' + opponent)
 
 speakConor('Why you carring a school bag, you can\'t even read!')
+speakConor('That\'s C.J Watson mate. I don\'t know who the f--- you are. No disrespect tho kid, keep hustling and stay in school', 'Draymond Green')
 
 
 # The default value is evaluated only once. This makes a difference when the default is a mutable object such as a

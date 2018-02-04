@@ -1,3 +1,4 @@
+# lists (An ordered collection of n values)
 mma_stars = ['Conor McGregor', 'Holly Holm', 'Cris Cyborg', 'Stipe Miocic', 'John Jones']
 
 boxing_stars = ['Floyd Mayweather', 'Canelo Alvarez', 'Vasly Lomachenko', 'Gennady Golovkin', 'Manny Pacquiao']
@@ -41,6 +42,14 @@ print(num_pi)
 del boxing_stars[0]
 print(boxing_stars)
 
-# tuples
+# tuples (An ordered collection of n values of any type)
 tpl = 1, 5, 'Paulie', 'Push', [1, 2, 'lay']
 print(tpl)
+
+# list with same string
+duplicate_string = ['Thug Rose', 'Thug Rose', 'Thug Rose']
+print(duplicate_string)
+
+# list with multiple data types
+multiple_types = ['String', 10, [12.14, 55]]
+print(multiple_types)
