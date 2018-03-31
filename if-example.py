@@ -13,7 +13,12 @@ elif x == 1:
 else:
     print("More")
 
-champion = 'Stipe Miočić'
+champion = "Stipe Miočić"
 
 if champion == "Stipe Miočić":
     print("UFC Heavyweight Champion: " + champion)
+
+not_champion = "Joanna Jedrzejczyk"
+
+if not_champion == "Joanna Jedrzejczyk":
+    print(not_champion + " is not an UFC champion.")
